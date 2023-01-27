@@ -69,6 +69,7 @@ footer a.logo {
 
 .list-groups button:hover,
 .list-groups button:focus {
+    color: #FFFFFF;
     background: var(--main-selection-color);
 }
 
@@ -225,5 +226,8 @@ footer a.logo {
 }
 
 .list-projects p.emerges {
+    font-size: 18px;
+    line-height: 1.56;
+    
     color: #FFFFFF
 }
