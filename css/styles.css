@@ -1,14 +1,14 @@
 :root {
-    --main-bg-color: #FFFFFF;
     --main-text-color: #212121;
     --main-selection-color: #2196F3;
+    --about-h3-color: #FFFFFF;
 }
 
 body {
     font-family: Roboto, sans-serif;
     color: var(--main-text-color);
     letter-spacing: 0.03em;
-    background: var(--main-bg-color);
+    background: #FFFFFF;
 }
 
 footer {
@@ -171,7 +171,7 @@ footer a.logo {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     
-    color: #FFFFFF;
+    color: var(--about-h3-color);
 }
 
 .features h3 {
@@ -206,7 +206,7 @@ footer a.logo {
     text-align: center;
     text-transform: uppercase;
     
-    color: #FFFFFF;
+    color: var(--about-h3-color);
     background: rgba(47, 48, 58, 0.8);
 }
 
