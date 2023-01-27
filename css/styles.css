@@ -62,7 +62,9 @@ footer a.logo {
 .list-nav a:hover,
 .list-nav a:focus,
 .list-connection a:hover,
-.list-connection a:focus
+.list-connection a:focus,
+.address a:hover,
+.address a:focus
 {
     color: var(--main-selection-color);
 }
