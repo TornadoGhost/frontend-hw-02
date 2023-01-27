@@ -94,11 +94,6 @@ footer a.logo {
     background: #F5F4FA
 }
 
-.portfolio h1,
-.features h2 {
-    display: none;
-}
-
 .list-projects h2 {
     font-weight: 700;
     font-size: 18px;
