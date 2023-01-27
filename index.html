@@ -6,11 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
   <header>
-    <a href="./index.html">Web Studio</a>
+    <a class="logo" href="./index.html"><span class="logo-span">Web</span> Studio</a>
     <nav>
       <ul class="list list-nav">
         <li><a href="./index.html">Студия</a></li>
@@ -33,12 +38,12 @@
     <!-- heroe -->
     <section class="hero">
       <h1>Эффектиные решения для вашего бизнеса</h1>
-      <button type="button">Заказать услуги</button>
+      <button type="button">Заказать услуг</button>
     </section>
     <!-- features -->
     <section class="features">
       <h2>Особенности</h2>
-      <ul>
+      <ul class="list list-features">
         <li>
           <img src="./images/antenna1.svg" alt="antenna1" width="70" height="70">
           <h3>Внимание к деталям</h3>
@@ -64,7 +69,7 @@
     <!-- about -->
     <section class="about">
       <h2>Чем мы занимаемся</h2>
-      <ul>
+      <ul class="list list-about">
         <li>
           <img src="./images/about/imgdesktop_applications.jpg" alt="desktop" width="370" height="294">
           <h3>Десктопные приложения</h3>
@@ -82,7 +87,7 @@
     <!-- team -->
     <section class="team">
       <h2>Наша команда</h2>
-      <ul>
+      <ul class="list list-team">
         <li>
           <img src="./images/teammembers/img.jpg" alt="img" width="270" height="260">
           <h3>Николай Кучеренко</h3>
@@ -139,7 +144,7 @@
     <!-- regular customers -->
     <section class="customers">
       <h2>Постоянные клиенты</h2>
-      <ul>
+      <ul class="list list-customers">
         <li><a href=""><img src="./images/clients-logo/logo1.svg" alt="logo1" width="45" height="50"></a>
         </li>
         <li><a href=""><img src="./images/clients-logo/logo2.svg" alt="logo2" width="40" height="52"></a></li>
@@ -154,19 +159,18 @@
   </main>
   <footer>
     <div class="footer-address">
-      <a href="">Web Studio</a>
-      <address>
+      <a class="logo" href="./index.html"><span class="logo-span">Web</span> Studio</a>
+      <address class="address">
         <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="">info@example.com</a>
-        <a href="">+38 099 111 11 11</a>
+        <a href="mailto:info@example.com">info@example.com</a>
+        <a href="tel:+380991111111">+38 099 111 11 11</a>
       </address>
     </div>
     <div class="footer-socials">
       <p aria-label="Ссылки на наши социальные сети"><b>Присоединяйтесь</b></p>
-      <ul>
+      <ul class="list list-socials">
         <li><a href=""><img src="./images/socialmedias/instagram1.svg" alt="instagram" width="20" height="20"></a></li>
-        <li><a href=""><img src="./images/socialmedias/twitter1.svg" alt="twitter" width="20" height="20"></a>
-        </li>
+        <li><a href=""><img src="./images/socialmedias/twitter1.svg" alt="twitter" width="20" height="20"></a></li>
         <li><a href=""><img src="./images/socialmedias/facebook1.svg" alt="facebook" width="20" height="20"></a></li>
         <li><a href=""><img src="./images/socialmedias/linkedin1.svg" alt="linkedin" width="20" height="20"></a></li>
       </ul>
@@ -174,8 +178,7 @@
     <div class="footer-mailing">
       <p aria-label="Ссылки на наши социальные сети"><b>Подпишитесь на рассылку</b></p>
       <form action="#" method="post">
-        <label for="text"></label>
-        <input type="text" id="text">
+        <input type="email" placeholder="E-mail">
         <button type="submit">Подписаться <img src="./images/iconsend.svg" alt="icon send"></button>
       </form>
     </div>
