@@ -1,61 +1,65 @@
 :root {
-    --main-text-color: #212121;
-    --main-selection-color: #2196F3;
-    --about-h3-color: #FFFFFF;
+  --main-text-color: #212121;
+  --main-selection-color: #2196f3;
+  --about-h3-color: #ffffff;
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    color: var(--main-text-color);
-    letter-spacing: 0.03em;
-    background: #FFFFFF;
+  font-family: Roboto, sans-serif;
+  color: var(--main-text-color);
+  letter-spacing: 0.03em;
+  background: #ffffff;
 }
 
 footer {
-    background: #2F303A;
+  background: #2f303a;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-li {
-    list-style-type: none;
+.list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .logo {
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
 }
 
-p, .list-connection a {
-    color: #757575;
+p,
+.list-connection a {
+  color: #757575;
 }
 
 .list-nav a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
 
 .logo:visited,
 .list-nav a:visited,
 .list-projects a:visited {
-    color: var(--main-text-color);
+  color: var(--main-text-color);
 }
 
 footer .logo:visited,
 footer a.logo {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .logo-span,
@@ -64,170 +68,169 @@ footer a.logo {
 .list-connection a:hover,
 .list-connection a:focus,
 .address a:hover,
-.address a:focus
-{
-    color: var(--main-selection-color);
+.address a:focus {
+  color: var(--main-selection-color);
 }
 
 .list-groups button:hover,
 .list-groups button:focus {
-    color: #FFFFFF;
-    background: var(--main-selection-color);
+  color: #ffffff;
+  background: var(--main-selection-color);
 }
 
-.list-connection{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+.list-connection {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .list-groups {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
 
 .list-groups button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    
-    text-align: center;
-    background: #F5F4FA
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+
+  text-align: center;
+  background: #f5f4fa;
 }
 
 .list-projects h2 {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .list-projects p {
-    font-size: 16px;
-    line-height: 1.88;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
-.address p{
-    font-size: 14px;
-    line-height: 1.71;
-    color: #FFFFFF;
-    font-style: normal;
+.address p {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+  font-style: normal;
 }
 
 .address a {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-socials p,
-.footer-mailing p{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: #FFFFFF;
+.footer-mailing p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .footer-mailing button,
 .hero button {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
 
-    text-align: center;
-    letter-spacing: 0.06em;
+  text-align: center;
+  letter-spacing: 0.06em;
 
-    color: #FFFFFF;
-    background: #2196F3;
+  color: #ffffff;
+  background: #2196f3;
 }
 
-.footer-mailing input[type="email"] {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    
-    display: flex;
-    align-items: center;
-    
-    color: rgba(255, 255, 255, 0.6);
-    background: #2F303A;
+.footer-mailing input[type='email'] {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(255, 255, 255, 0.6);
+  background: #2f303a;
 }
 
 .hero {
-    background-color: black;
+  background-color: black;
 }
 .hero h1 {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    
-    color: var(--about-h3-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--about-h3-color);
 }
 
 .features h3 {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .features p {
-    font-size: 14px;
-    line-height: 1.71;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .features img {
-    background: #F5F4FA;
+  background: #f5f4fa;
 }
 
 .about h2,
 .team h2,
 .customers h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .about h3 {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    text-transform: uppercase;
-    
-    color: var(--about-h3-color);
-    background: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--about-h3-color);
+  background: rgba(47, 48, 58, 0.8);
 }
 
 .team h3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    
-    text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
 }
 
 .team p {
-    font-size: 16px;
-    line-height: 1.19;
-    
-    text-align: center;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
 }
 
 .list-projects p.emerges {
-    font-size: 18px;
-    line-height: 1.56;
-    
-    color: #FFFFFF
+  font-size: 18px;
+  line-height: 1.56;
+
+  color: #ffffff;
 }
