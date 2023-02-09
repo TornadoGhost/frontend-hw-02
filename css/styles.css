@@ -1,33 +1,34 @@
 :root {
+  --main-bg-color: #ffffff;
   --main-text-color: #212121;
   --main-selection-color: #2196f3;
-  --about-h3-color: #ffffff;
+  --main-color: #ffffff;
 }
 
 body {
   font-family: Roboto, sans-serif;
   color: var(--main-text-color);
   letter-spacing: 0.03em;
-  background: #ffffff;
-}
-
-footer {
-  background: #2f303a;
+  background-color: var(--main-bg-color);
+  font-size: 16px;
 }
 
 a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
+footer {
+  background-color: #2f303a;
+}
 .list {
   margin: 0;
   padding: 0;
 
   list-style: none;
-}
-
-button {
-  cursor: pointer;
 }
 
 .logo {
@@ -59,7 +60,7 @@ p,
 
 footer .logo:visited,
 footer a.logo {
-  color: #ffffff;
+  color: var(--main-color);
 }
 
 .logo-span,
@@ -74,7 +75,7 @@ footer a.logo {
 
 .list-groups button:hover,
 .list-groups button:focus {
-  color: #ffffff;
+  color: var(--main-color);
   background: var(--main-selection-color);
 }
 
@@ -86,18 +87,16 @@ footer a.logo {
 
 .list-groups {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.62;
   text-align: center;
 }
 
 .list-groups button {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.63;
-
   text-align: center;
-  background: #f5f4fa;
+
+  background-color: #f5f4fa;
 }
 
 .list-projects h2 {
@@ -108,14 +107,13 @@ footer a.logo {
 }
 
 .list-projects p {
-  font-size: 16px;
   line-height: 1.88;
 }
 
 .address p {
   font-size: 14px;
   line-height: 1.71;
-  color: #ffffff;
+  color: var(--main-color);
   font-style: normal;
 }
 
@@ -133,20 +131,18 @@ footer a.logo {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-color);
 }
 
 .footer-mailing button,
 .hero button {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.88;
-
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--main-color);
   background: #2196f3;
 }
 
@@ -190,7 +186,7 @@ footer a.logo {
 }
 
 .features img {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 }
 
 .about h2,
@@ -209,22 +205,19 @@ footer a.logo {
   text-align: center;
   text-transform: uppercase;
 
-  color: var(--about-h3-color);
-  background: rgba(47, 48, 58, 0.8);
+  color: var(--main-color);
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
 .team h3 {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.19;
 
   text-align: center;
 }
 
 .team p {
-  font-size: 16px;
   line-height: 1.19;
-
   text-align: center;
 }
 
@@ -232,5 +225,5 @@ footer a.logo {
   font-size: 18px;
   line-height: 1.56;
 
-  color: #ffffff;
+  color: var(--main-color);
 }
